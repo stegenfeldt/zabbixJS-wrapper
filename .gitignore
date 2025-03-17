@@ -44,3 +44,7 @@ coverage/
 
 # Mac system files
 .DS_Store
+
+# Hugo public directory
+website/public/
+website/.hugo_build.lock

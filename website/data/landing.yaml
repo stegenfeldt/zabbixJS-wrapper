@@ -1,0 +1,100 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  title: "zabbixJS-wrapper"
+  subtitle: A simple wrapper for Zabbix script-items development in Node.js, Typescript, Javascript and VSCode.
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Go to Docs"
+    url: "docs/"
+
+  info: "**Open Source** MIT Licensed."
+
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  items:
+    - title: "Workspace Example"
+      description: "Copy-paste the workspace example and start developing your script-items."
+      icon: "folder"
+
+    - title: "Typescript"
+      description: "Develop your script-items in Typescript, with all the benefits of a typed language."
+      icon: "code"
+
+    - title: "Javascript"
+      description: "Develop your script-items in Javascript, if that's easier for you."
+      icon: "javascript"
+
+    - title: "VSCode"
+      description: "Develop your script-items in VSCode, or adapt your editor of choice."
+      icon: "developer_mode"
+
+    - title: "Debug"
+      description: "Debug your script-items in VSCode, with breakpoints and variable inspection."
+      icon: "pest_control"
+
+# Image Compare
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare
+
+  title: Customise The Lotus Docs Appearance
+  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
+
+  items:
+    - title: Dark Mode
+      config: {
+        startingPoint: 50,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: 'Dark',
+          after: 'Light',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_dark_v0.8.webp"
+      imageAfter: "lotusdocs_light_v0.8.webp"
+
+    - title: Custom Fonts
+      config: {
+        controlColor: "#3C4257",
+        startingPoint: 25,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: 'Inter',
+          after: 'Life Saver',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
+      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
+
+    - title: Accent Color
+      config: {
+        startingPoint: 25,
+        addCircle: true,
+        addCircleBlur: true,
+        showLabels: true,
+        labelOptions: {
+          before: 'Blue',
+          after: 'Cardinal',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_blue_theme_colour.webp"
+      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
