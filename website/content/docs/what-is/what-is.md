@@ -16,10 +16,9 @@ It has the HttpRequest module, config files and a template `.ts` script file to 
 
 Since Zabbix script-items uses the embedded duktape JS engine for execution, it is not possible to load or import modules like normal JS applications.  
 
-To make web development easier (or rather, possible), Zabbix have included a global `HttpRequest` object based on libcurl for basic http-requests.  
-Unfortunately, there is no matching commonJS module to use if you want to debug your scripts in a more intelligent manner. 
+To make web development easier (or rather, possible), Zabbix have included a global [HttpRequest](https://www.zabbix.com/documentation/7.0/en/manual/config/items/preprocessing/javascript/javascript_objects#httprequest) object based on libcurl for basic http-requests. One that I have (mostly) replicated the functionality of in a Node.js-compatible [`HttpRequest`](/docs/what-is/HttpRequest/)-class.
 
-So I made a very rudimentary wrapper for an existing, and synchronous, module that is included in the workspace example. This allows 
+So I made a very rudimentary wrapper for an existing, and synchronous, module that is included in the workspace example. This allows for easier development with proper debugging, breakpoints and variable inspections in VS Code.
 
 ## 3. The Typescript config
 

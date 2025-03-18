@@ -52,7 +52,6 @@ class HttpRequest {
      * if the data being posted is JSON-formatted; `text/plain` otherwise.
      */
     clearHeader() {
-        // Clears HTTP header. If no header fields are set, HttpRequest will set Content-Type to application/json if the data being posted is JSON-formatted; text/plain otherwise.
         this.headers = {};
     }
 
