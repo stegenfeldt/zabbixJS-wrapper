@@ -4,6 +4,7 @@ description: "Short description of the zabbixJS-wrapper, what it is, and what it
 icon: "article"
 draft: false
 toc: true
+weight: 1
 ---
 
 ## 1. The Workspace

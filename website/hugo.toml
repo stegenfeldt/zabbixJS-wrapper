@@ -7,6 +7,17 @@ enableGitInfo = true
 
 contentDir = 'content'
 
+[params.docs]
+    prismTheme = "twilight"
+    intLinkTooltip = true
+    themeColor = "emerald"
+    darkMode = true
+    repoUrl = "https://github.com/stegenfeldt/zabbixJS-wrapper"
+    lasMod = true    
+[params.footer]
+    version = true
+    copyright = "© stegenfeldt, Atea Sverige AB, 2025"
+
 [module]
     [[module.imports]]
         path = "github.com/colinwilson/lotusdocs"

@@ -8,7 +8,7 @@ hero:
   subtitle: A simple wrapper for Zabbix script-items development in Node.js, Typescript, Javascript and VSCode.
 
   ctaButton:
-    icon: rocket_launch
+    icon: developer_guide
     btnText: "Go to Docs"
     url: "docs/"
 
