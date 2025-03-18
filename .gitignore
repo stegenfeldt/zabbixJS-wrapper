@@ -40,7 +40,7 @@ coverage/
 
 # VS Code
 .vscode/*
-!.vscode/extensions.json
+!./example-workspace/.vscode/extensions.json
 
 # Mac system files
 .DS_Store
